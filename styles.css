@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #343a40;
+}
+
+.preparation {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.title {
+    font-size: 1.5em;
+    color: #007bff;
+    cursor: pointer;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.content {
+    display: none; /* Oculto por defecto */
+    padding: 10px 0;
+}
+
+.videos {
+    margin-top: 40px;
+}
+
+.video {
+    margin-bottom: 20px;
+    text-align: center;
+}
