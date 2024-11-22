@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const titles = document.querySelectorAll('.title');
+    const titles = document.querySelectorAll('.boton');
 
     titles.forEach(title => {
         title.addEventListener('click', () => {
