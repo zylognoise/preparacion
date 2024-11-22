@@ -1,14 +1,19 @@
+
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
     margin: 0;
     padding: 0;
+
+
 }
 
+
 .container {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding:0  50px;
     background-color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -16,7 +21,9 @@ body {
 h1 {
     text-align: center;
     color: #343a40;
+
 }
+
 
 .preparation {
     margin-bottom: 20px;
@@ -38,9 +45,24 @@ h1 {
 
 .videos {
     margin-top: 40px;
+    margin: 20px;
 }
 
 .video {
     margin-bottom: 20px;
     text-align: center;
+}
+.boton{
+    background-color: #87CEEB; /* Color celeste claro */
+    color: white;              /* Color del texto */
+    border: none;             /* Sin borde */
+    padding: 10px 20px;       /* Espaciado interno */
+    margin: 20px;
+    border-radius: 3%;        /* Bordes redondeados al 100% para hacerlo circular */
+    cursor: pointer;           /* Cambia el cursor a un puntero */
+    font-size: 16px;           /* Tamaño de la fuente */
+    text-align: center;        /* Centra el texto */
+    outline: none;             /* Sin contorno al hacer clic */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para efecto 3D */
+    transition: background-color 0.3s; /* Transición suave en hover */
 }
