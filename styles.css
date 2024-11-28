@@ -118,6 +118,7 @@ h3{
 
 
 .boton{
+    all: unset;
     background-color: #169fe6; /* Color celeste claro */
     color: white;              /* Color del texto */
     border: none;             /* Sin borde */
