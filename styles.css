@@ -1,8 +1,8 @@
 
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+    font-family: Montserrat, sans-serif;
+    background-color: #169fe6;
     margin: 0;
     padding: 0;
 
@@ -21,13 +21,19 @@ body {
 
 h1 {
     text-align: center;
-    color: #343a40;
+    color: #013e73;
     margin-top: 40px;
     padding-top:    40px;
     font-size: 50px;
     text-shadow: 2px 2px 0 rgba(0,0,0,0.1);
+    font-family: Montserrat;
 }
 
+h3{
+    font-family: Montserrat;
+    color: #013e73;
+
+}
 
 .preparation {
     margin-bottom: 20px;
@@ -36,7 +42,7 @@ h1 {
 
 .title {
     font-size: 1.5em;
-    color: #007bff;
+    color: ##013e73;
     cursor: pointer;
     margin: 0;
     padding: 10px 0;
@@ -48,6 +54,7 @@ h1 {
 }
 
 .videos {
+
     display: flex ;
     flex-wrap: wrap;
     gap: 25px ;
@@ -74,7 +81,7 @@ h1 {
 
 }
 .boton{
-    background-color: #87CEEB; /* Color celeste claro */
+    background-color: #169fe6; /* Color celeste claro */
     color: white;              /* Color del texto */
     border: none;             /* Sin borde */
     padding: 10px 20px;       /* Espaciado interno */
