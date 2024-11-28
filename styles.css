@@ -54,30 +54,38 @@ h3{
 }
 
 .videos {
-
-    display: flex ;
-    flex-wrap: wrap;
-    gap: 25px ;
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
+    align-items: center; /* Centra todo el contenido dentro del contenedor */
+    gap: 25px;
     margin-top: 40px;
     margin: 20px;
+    text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+.titulovideo {
+    font-size: 1.8em; /* Tamaño de texto ajustable */
+    margin-bottom: 10px; /* Espacio entre el título y el video */
+    color: #013e73; /* Color del texto */
 }
 
 .video {
-
-
-    position: relative ;
+    position: relative;
     width: 100%;
-    padding-bottom: 56.25%;
+    max-width: 800px; /* Limita el tamaño máximo del video */
+    padding-bottom: 56.25%; /* Mantiene la proporción de 16:9 */
     height: 0;
     overflow: hidden;
-    }
-.video iframe{
+}
+
+.video iframe {
     position: absolute;
     top: 0;
-    left:0;
-    width: 70%;
-    height: 70%;
+    left: 0;
+    width: 100%; /* Hace que el iframe ocupe todo el ancho disponible */
+    height: 100%; /* Hace que el iframe ocupe toda la altura disponible */
     border: 0;
+}
 
 }
 .boton{
