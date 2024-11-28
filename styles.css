@@ -94,3 +94,15 @@ h3{
     box-shadow: 7px 8px 9px 1px rgba(0, 0, 0, 0.1); /* Sombra para efecto 3D */
     transition: background-color 0.3s; /* Transición suave en hover */
 }
+
+
+@media (max-width: 768px) {
+    .titulo {
+        padding: 20px; /* Más espaciado para pantallas pequeñas */
+        text-align: center; /* Centra el texto en caso de necesitarlo */
+    }
+
+    h1 {
+        font-size: 1.5em; /* Ajusta el tamaño del texto */
+    }
+}
